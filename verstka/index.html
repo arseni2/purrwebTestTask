@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budss</title>
+    <link href="./font.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div class="burgerMenu">
+    <div class="burgerMenu__container">
+        <img class="burgerMenu__container__close" src="./assets/icons/Close.svg" alt="">
+    </div>
+
+    <button class="button--primary--dark button button--primary button--primary--dialog">
+        <p>Contact sales</p>
+    </button>
+
+    <p class="burgerMenu__text">Privacy Policy</p>
+    <p class="burgerMenu__text">Terms Of Use - Seller</p>
+    <p class="burgerMenu__text">Terms of Use - Sellers & Customers</p>
+</div>
+<header class="header">
+    <div class="header__container">
+        <p class="header__item header__item--active">For Business</p>
+        <p class="header__item">For Customers</p>
+    </div>
+</header>
+
+<main class="main">
+    <dialog class="successFormSubmition">
+        <button class="modal__close" aria-label="Close">&times;</button>
+        <div class="successFormSubmition__img__wrapper">
+            <picture>
+                <source
+                        srcset="./assets/images/modal-image.webp"
+                        type="image/webp">
+                <img srcset="./assets/images/modal-image.webp"
+                     alt="Image">
+            </picture>
+        </div>
+        <p class="successFormSubmition__title">
+            Thank you
+        </p>
+        <p class="successFormSubmition__description">Thank you, we have received your application and will contact you soon!</p>
+        <button class="button button--primary">
+            <p>Super!</p>
+        </button>
+    </dialog>
+
+    <dialog class="gdpr">
+        <div class="gdpr__content">
+            <button class="modal__close gdpr__close" aria-label="Close">&times;</button>
+        </div>
+        <p class="gdpr__content__text">This website uses cookies to ensure you get the best experience on our website. They also allow us to analyze user behavior in order to constantly improve the website for you.</p>
+        <button class="button button--primary">
+            <p>Accept</p>
+        </button>
+        <button class="button button--secondary">Decline</button>
+    </dialog>
+    <section class="hero">
+        <div class="hero__header">
+            <img class="hero__logo" src="./assets/images/heroSectionLogo.svg" alt="Budss logo">
+            <button class="button--primary button--primary--dark button button--primary button--primary--dialog">
+                <p>Contact sales</p>
+            </button>
+
+            <svg class="hero__header__burger" width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="24" height="2" rx="1" fill="white"/>
+                <rect y="9" width="24" height="2" rx="1" fill="white"/>
+                <rect y="18" width="24" height="2" rx="1" fill="white"/>
+            </svg>
+        </div>
+
+        <div class="hero__content">
+            <div class="hero__text">
+                <h1 class="hero__title">Everyone is an Influencer</h1>
+                <p class="hero__description">
+                    Budss is a payments as a service and WOM engine dedicated to acquisition and retention of customers to your business.
+                </p>
+                <button class="button--primary--dark button button--primary button--primary--dialog">
+                    <p>Contact sales</p>
+                </button>
+            </div>
+
+            <div class="hero__image-wrapper">
+                <picture>
+                    <source
+                            srcset="./assets/images/ArrowVector.webp"
+                            type="image/webp">
+                    <img class="hero__image-wrapper__img" srcset="./assets/images/ArrowVector.webp"
+                         alt="Image">
+                </picture>
+                <picture>
+                    <source media="(min-width: 400px)"
+                            srcset="./assets/images/heroSectionWomenx1.5.webp"
+                            type="image/webp">
+                    <source media="(max-width: 399px)"
+                            srcset="./assets/images/heroSectionWomen.webp"
+                            type="image/webp">
+                    <img class="hero__image"
+                         src="./assets/images/heroSectionWomenx1.5.webp"
+                         alt="A woman">
+                </picture>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about__container">
+            <h1 class="about__title">About Budss</h1>
+
+            <div class="about__content">
+                <div class="about__info">
+                    <p class="about__subtitle">
+                        Payment as a service, powered seamlessly by our
+                        <span class="about__subtitle__container">
+                            <span class="about__subtitle__container__item">network of shoppers</span>
+                        </span>
+                    </p>
+                    <picture class="about__info__image">
+                        <source
+                                srcset="./assets/images/aboutImg.webp"
+                                type="image/webp">
+                        <img class="about__info__img" srcset="./assets/images/aboutImg.webp"
+                             alt="Image">
+                    </picture>
+                </div>
+
+                <div class="about__features">
+                    <div class="about__feature">
+                        <div class="about__icon about__icon--contactless"></div>
+                        <h3 class="about__feature-title">Contactless</h3>
+                        <p class="about__feature-description">
+                            Budss uses near field communication (NFC) for making contactless payments.
+                        </p>
+                    </div>
+                    <div class="about__feature">
+                        <div class="about__icon about__icon--buying-power"></div>
+                        <h3 class="about__feature-title">Increased Buying Power</h3>
+                        <p class="about__feature-description">
+                            Returning customers spend up to 3X more.
+                        </p>
+                    </div>
+                    <div class="about__feature">
+                        <div class="about__icon about__icon--analytics"></div>
+                        <h3 class="about__feature-title">Analytics & Insights</h3>
+                        <p class="about__feature-description">
+                            Gain a holistic view into your customers' buying behavior & purchasing patterns.
+                        </p>
+                    </div>
+                    <div class="about__feature">
+                        <div class="about__icon about__icon--fraud"></div>
+                        <h3 class="about__feature-title">Fraud Protection</h3>
+                        <p class="about__feature-description">
+                            Budss handles all payments with a fraud prevention algorithm to flag high-risk purchases.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="howWorks">
+        <picture>
+            <source media="(min-width: 400px)"
+                    srcset="./assets/images/howWorksPhone.webp 2x"
+                    type="image/webp">
+            <img class="howWorks__image"
+                 src="./assets/images/howWorksPhone.webp"
+                 alt="A woman">
+        </picture>
+        <video class="howWorks__video" autoplay="true" loop="true" muted="true" preload="auto" playsinline="true">
+            <source src="./assets/video/worksSectionVideo.webm" type="video/webm">
+        </video>
+        <div class="howWorks__text__container">
+            <div class="howWorks__text__container__item">
+                <div class="howWorks__text__container__item__item">
+                    Buy Together, Earn Together
+                    <span class="howWorks__text__container__item__outlined">Buy Together, Earn Together</span>
+                    Buy Together, Earn Together
+                    <span class="howWorks__text__container__item__outlined">Buy Together, Earn Together</span>
+                </div>
+                <div class="howWorks__text__container__item__item">
+                    Buy Together, Earn Together
+                    <span class="howWorks__text__container__item__outlined">Buy Together, Earn Together</span>
+                    Buy Together, Earn Together
+                    <span class="howWorks__text__container__item__outlined">Buy Together, Earn Together</span>
+                </div>
+            </div>
+
+            <div class="howWorks__text__container__item purple">
+                <div class="howWorks__text__container__item__item">
+                    Buy Together, Earn Together
+                    <span class="howWorks__text__container__item__outlined">Buy Together, Earn Together</span>
+                    Buy Together, Earn Together
+                    <span class="howWorks__text__container__item__outlined">Buy Together, Earn Together</span>
+                </div>
+                <div class="howWorks__text__container__item__item">
+                    Buy Together, Earn Together
+                    <span class="howWorks__text__container__item__outlined">Buy Together, Earn Together</span>
+                    Buy Together, Earn Together
+                    <span class="howWorks__text__container__item__outlined">Buy Together, Earn Together</span>
+                </div>
+            </div>
+
+            <div class="howWorks__text__container__item orange">
+                <div class="howWorks__text__container__item__item">
+                    Buy Together, Earn Together
+                    <span class="howWorks__text__container__item__outlined">Buy Together, Earn Together</span>
+                    Buy Together, Earn Together
+                    <span class="howWorks__text__container__item__outlined">Buy Together, Earn Together</span>
+                </div>
+                <div class="howWorks__text__container__item__item">
+                    Buy Together, Earn Together
+                    <span class="howWorks__text__container__item__outlined">Buy Together, Earn Together</span>
+                    Buy Together, Earn Together
+                    <span class="howWorks__text__container__item__outlined">Buy Together, Earn Together</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="percents">
+        <div class="percents__item">
+            <h4 class="percents__item__title">15%</h4>
+            <p class="percents__item__description">Increase in Purchase Amount</p>
+        </div>
+        <div class="percents__item">
+            <h4 class="percents__item__title">30%</h4>
+            <p class="percents__item__description smallWidth">Growth in Annual Sales</p>
+        </div>
+        <div class="percents__item">
+            <h4 class="percents__item__title">10%</h4>
+            <p class="percents__item__description smallWidth">Growth in New Customers</p>
+        </div>
+    </section>
+
+    <section class="whyBudss">
+        <h1 class="whyBudss__title">Why Budss?</h1>
+        <p class="whyBudss__subtitle">
+            We Provide Advanced Payment Solutions
+        <div class="whyBudss__subtitle__highlight">
+            <span class="whyBudss__subtitle__highlight__item">To Grow Your Business</span>
+        </div>
+        </p>
+
+        <div class="why-budss__container">
+            <div class="why-budss__item">
+                <div class="why-budss__item-card">
+                    <picture class="why-budss__item-card__img-container">
+                        <source srcset="./assets/images/whyBudssCardImg1.webp 2x" type="image/webp">
+                        <img class="why-budss__item-card__img" src="./assets/images/whyBudssCardImg1.webp" alt="Image">
+                    </picture>
+                    <div class="why-budss__item-card__text">
+                        <h3 class="why-budss__item-card__text-title">Turn your customers into loyal influencers</h3>
+                        <p class="why-budss__item-card__text-description">Budss helps businesses harness the exponential power of loyal customers for acquisition and retention.</p>
+                    </div>
+                </div>
+                <div class="why-budss__item-card2">
+                    <div class="why-budss__item-card2__text">
+                        <h3 class="why-budss__item-card2__text-title">Harness the power of buying in bulk</h3>
+                        <p class="why-budss__item-card2__text-description">Get at least 2X more sales with Budss Buying Groups. Your customer base will grow exponentially as your customers add their friends & family to your personalized group.</p>
+                        <div class="why-budss__item-card__text-images">
+                            <picture class="why-budss__item-card__text-image">
+                                <source srcset="./assets/images/whyBudssCardImg2-1_1.webp" type="image/webp">
+                                <img class="why-budss__item-card2__img" src="./assets/images/whyBudssCardImg2-1_1.webp" alt="Image">
+                            </picture>
+                            <picture class="why-budss__item-card__text-image">
+                                <source srcset="./assets/images/whyBudssCardImg2-2_1.webp" type="image/webp">
+                                <img class="why-budss__item-card2__img" src="./assets/images/whyBudssCardImg2-2_1.webp" alt="Image">
+                            </picture>
+                        </div>
+                    </div>
+                    <picture class="why-budss__item-card2__img-container">
+                        <source srcset="./assets/images/whyBudssCardImg2-3_1.webp" type="image/webp">
+                        <img class="why-budss__item-card2__img" src="./assets/images/whyBudssCardImg2-3_1.webp" alt="Image">
+                    </picture>
+                </div>
+            </div>
+            <div class="why-budss__item">
+                <div class="why-budss__item-card3">
+                    <div class="why-budss__item-card3__text">
+                        <h3 class="why-budss__item-card3__text-title">Harness the power of buying in bulk</h3>
+                        <p class="why-budss__item-card3__text-description">Budss allows for shoppers to earn immediate cash back at their favorite stores.</p>
+                    </div>
+                    <picture class="why-budss__item-card3__img-container">
+                        <source srcset="./assets/images/whyBudssCardImg3.webp" type="image/webp">
+                        <img class="why-budss__item-card3__img" src="./assets/images/whyBudssCardImg3.webp" alt="Image">
+                    </picture>
+                </div>
+                <div class="why-budss__item-card4">
+                    <div class="why-budss__item-card4__text">
+                        <h3 class="why-budss__item-card4__text-title">Seasoned with AI and Gamification</h3>
+                        <p class="why-budss__item-card4__text-description">AI programming creates a personalized customer journey, offering recommendations for their next purchase and optimizing rewards for after purchase.</p>
+                    </div>
+                    <picture class="why-budss__item-card4__img-container">
+                        <source srcset="./assets/images/whyBudssCardImg4.webp" type="image/webp">
+                        <img class="why-budss__item-card4__img" src="./assets/images/whyBudssCardImg4.webp" alt="Image">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="business">
+        <div class="business_grow">
+            <h1 class="business_grow__title">Let Your Business Grow</h1>
+            <button class="button button--primary button--primary--dialog">
+                <p>Contact sales</p>
+            </button>
+        </div>
+        <div class="business__brand">
+            <div class="business__brand__text">
+                <h1 class="business__brand__text__title">
+                    Your Brand Awareness Maters
+                </h1>
+                <p class="business__brand__text__description">
+                    Budss is a husle free solution to put your brand on any digital surface including Instagram, Facebook, Twitter and TikTok
+                </p>
+            </div>
+            <div class="business__brand__social">
+                <div class="business__brand__social__item">
+                    <picture>
+                        <source
+                                srcset="./assets/images/BusinessFacebook.webp"
+                                type="image/webp">
+                        <img srcset="./assets/images/BusinessFacebook.webp"
+                             alt="Image">
+                    </picture>
+                </div>
+                <div class="business__brand__social__item">
+                    <picture>
+                        <source
+                                srcset="./assets/images/BusinessTwitter.webp"
+                                type="image/webp">
+                        <img srcset="./assets/images/BusinessTwitter.webp"
+                             alt="Image">
+                    </picture>
+                </div>
+                <div class="business__brand__social__item">
+                    <picture>
+                        <source
+                                srcset="./assets/images/BusinessInst.webp"
+                                type="image/webp">
+                        <img srcset="./assets/images/BusinessInst.webp"
+                             alt="Image">
+                    </picture>
+                </div>
+                <div class="business__brand__social__item">
+                    <picture>
+                        <source
+                                srcset="./assets/images/BusinessTikTok.webp"
+                                type="image/webp">
+                        <img srcset="./assets/images/BusinessTikTok.webp"
+                             alt="Image">
+                    </picture>
+                </div>
+            </div>
+        </div>
+
+        <div class="business__brand__logos">
+            <picture>
+                <source
+                        srcset="./assets/images/BusinessWooCommerce.webp"
+                        type="image/webp">
+                <img srcset="./assets/images/BusinessWooCommerce.webp"
+                     alt="Image">
+            </picture>
+
+            <picture>
+                <source
+                        srcset="./assets/images/BusinessShopify.webp"
+                        type="image/webp">
+                <img srcset="./assets/images/BusinessShopify.webp"
+                     alt="Image">
+            </picture>
+
+            <picture>
+                <source
+                        srcset="./assets/images/BusinessSquare.webp"
+                        type="image/webp">
+                <img srcset="./assets/images/BusinessSquare.webp"
+                     alt="Image">
+            </picture>
+            <picture>
+                <source
+                        srcset="./assets/images/BusinessSquareSpace.webp"
+                        type="image/webp">
+                <img srcset="./assets/images/BusinessSquareSpace.webp"
+                     alt="Image">
+            </picture>
+            <picture>
+                <source
+                        srcset="./assets/images/BusinessClover.webp"
+                        type="image/webp">
+                <img srcset="./assets/images/BusinessClover.webp"
+                     alt="Image">
+            </picture>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__container__item">
+                <picture>
+                    <source
+                            srcset="./assets/images/heroSectionLogo.svg"
+                            type="image/webp">
+                    <img srcset="./assets/images/heroSectionLogo.svg"
+                         alt="Image">
+                </picture>
+                <p class="footer__container__link">For Business</p>
+                <p class="footer__container__link">For Customers</p>
+                <p class="footer__container__link footer__container__link--mobile">Privacy Policy</p>
+                <p class="footer__container__link footer__container__link--mobile">Terms Of Use - Seller</p>
+                <p class="footer__container__link footer__container__link--mobile">Terms of Use - Sellers & Customers</p>
+            </div>
+
+            <div class="footer__container__item">
+                <button class="button button--primary button--primary--dialog button--primary--dark">
+                    <p>Contact sales</p>
+                </button>
+                <picture>
+                    <source
+                            srcset="./assets/images/googleplay.png"
+                            type="image/webp">
+                    <img srcset="./assets/images/googleplay.png"
+                         alt="Image">
+                </picture>
+                <picture>
+                    <source
+                            srcset="./assets/images/appstore.png"
+                            type="image/webp">
+                    <img srcset="./assets/images/appstore.png"
+                         alt="Image">
+                </picture>
+            </div>
+        </div>
+        <div class="footer__hr"></div>
+        <div class="footer__container2">
+            <div class="footer__container2__item">
+                <p class="footer__container2__item__text">© Copyright 2023, All Rights Reserved by Budss</p>
+            </div>
+            <div class="footer__container2__item">
+                <p class="footer__container2__item__text">Privacy Policy</p>
+                <p class="footer__container2__item__text">Terms Of Use - Seller</p>
+                <p class="footer__container2__item__text">Terms of Use - Sellers & Customers</p>
+            </div>
+        </div>
+    </footer>
+
+    <dialog class="modal">
+        <div class="modal__content">
+            <button class="modal__close" aria-label="Close">&times;</button>
+            <h2 class="modal__title">Contact Sales</h2>
+            <form class="form">
+                <div class="form__group form__group--required">
+                    <label for="name" class="form__label">Name <span class="form__required">*</span></label>
+                    <input type="text" id="name" name="name" class="form__input" placeholder="Enter name" required />
+                    <span class="form__error">This field is required.</span>
+                </div>
+
+                <div class="form__group form__group--required">
+                    <label for="email" class="form__label">Email <span class="form__required">*</span></label>
+                    <input type="email" id="email" name="email" class="form__input" placeholder="Enter email" required />
+                    <span class="form__error ">Поле не должно быть пустым.</span>
+
+                </div>
+
+                <div class="form__group form__group--required">
+                    <label for="phone" class="form__label">Phone number <span class="form__required">*</span></label>
+                    <div class="form__phone">
+                        <input type="tel" id="phone" name="phone" class="form__input" placeholder="900 000 00 00" required />
+                    </div>
+                    <span class="form__error ">Поле не должно быть пустым и должно содержать номер телефона</span>
+
+                </div>
+
+                <div class="form__group">
+                    <label for="company" class="form__label">Company</label>
+                    <input type="text" id="company" name="company" class="form__input" placeholder="Enter company" />
+                    <span class="form__error ">Поле не должно быть пустым.</span>
+
+                </div>
+
+                <div class="form__group">
+                    <label for="website" class="form__label">Website/Store URL</label>
+                    <input type="url" id="website" name="website" class="form__input" placeholder="Enter Website/Store URL" />
+                    <span class="form__error ">Поле не должно быть пустым.</span>
+
+                </div>
+
+                <div class="form__group form__group--submit">
+                    <button type="submit" class="button button--primary">
+                        <p>Contact sales</p>
+                    </button>
+                </div>
+
+                <p class="form__policy">
+                    By submitting this form you are agreeing to Budss’s
+                    <a href="#" class="form__link">Privacy Policy</a> and
+                    <a href="#" class="form__link">Terms of Use</a>.
+                </p>
+            </form>
+        </div>
+    </dialog>
+
+
+</main>
+</body>
+</html>
